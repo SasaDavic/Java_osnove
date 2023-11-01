@@ -29,8 +29,9 @@ prezime = s.next();
 System.out.println("Unesite godinu rodjenja: ");
 godRodjenja = s.nextInt();
 
+int starost = 2023 - godRodjenja;
 
-godRodjenja = s.nextInt();
+System.out.println(ime + " " + prezime + " - " + starost + " god.");
 
 
 	}
