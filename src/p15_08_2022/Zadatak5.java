@@ -19,5 +19,12 @@ public class Zadatak5 {
 			System.out.println("Apsolutna vrednost je " + broj);
 		}
 	}
+	// II nacin
+	public static void apsolutnaVrednost(int n) {
+		if (n < 0) {
+			n = -n;
+		}
+		System.out.println("Apsolutna vrednost je " + n);
+	}
 
 }
